@@ -1,35 +1,62 @@
+/*
+
+
+    font-family: 'Cutive Mono', monospace;
+
+    font-family: 'Roboto Mono', monospace;
+
+    font-family: 'Roboto', sans-serif;
+
+
+*/
+
+
 body {
 
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Roboto Mono', monospace;
     font-size: 24px;
 }
 
 .main-container {
-    width: 1200px;
+    width: 1400px;
     margin: auto;
+    border: 1px #b7b7b7;
 }
 
 
 header {
     height: 800px;
     width: 1400px;
-    background: url('../img/hero-image.png');
+    background: url('../img/mac-trees.jpg');
     background-size: cover;
     overflow: auto;
+    /*border-left: 1px #b7b7b7;
+    border-right: 1px #b7b7b7;*/
+}
+
+.portfolio-content {
+    width: 1200px;
+    margin: auto;
+    height: ;
+    /*box-shadow: 5px 10px 18px #b7b7b7;*/
 }
 
 h1 {
- font-family: 'Roboto Slab', serif;
+ /*font-family: 'Roboto Slab', serif;*/
+ font-family: 'Roboto Mono', monospace;
  font-size: 60px;
+ /*color: #ffffff;*/
  color: #bdbf09;
  text-align: center;
 }
 
 h2 {
-    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Roboto Mono', monospace;
     font-size: 48px;
     text-align: center;
     color: #095156;
@@ -37,7 +64,8 @@ h2 {
 }
 
 h3 {
-    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Roboto Mono', monospace;
     font-size: 24px;
     color: #095156;
 }
@@ -49,18 +77,30 @@ p {
 header .header-headings {
     height: 400px;
     width: 800px;
-    padding-top: 270px;
+    padding-top: 125px;
     margin: auto;
+}
+
+header h2 {
+    color: #ffffff;
+}
+
+#portfolio {
+
 }
 
 #portfolio h2 {
     text-align: center;
     font-size: 36px;
+    margin-top: 30px;
+    /*font-family: 'Roboto Slab', serif;*/
+    font-family: 'Roboto Mono', monospace;
 }
 
 .half-width {
     height: 400px;
     width: 570px;
+    margin: 0px 15px 0px 5px;
 }
 
 .sites-container {
@@ -114,12 +154,16 @@ header .header-headings {
 #about h2 {
     font-size: 36px;
     color: #ffffff;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Mono', monospace;
+    /*font-family: 'Roboto Slab', serif;*/
 }
 
 .about-img{
     height: 150px
     width: 200px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    border-radius: 30px; /* hasn't worked */
 }
 
 .about-empty-div {
@@ -129,30 +173,80 @@ header .header-headings {
 
 .about-p {
     color: #ffffff;
-    height: 200px;
+    /* height: 420px; */
     width: 600px;
     font-size: 24px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    /*font-family: 'Roboto', sans-serif;*/
 }
 
 .about-p p {
     color: #ffffff;
+    margin-top: 10px;
 }
 
 footer {
     background-color: #095156;
-    height: 200px;
+    height: 350px;
     margin-top: 0;
+    padding-top: 25px;
 }
 
 footer h2 {
     color: #ffffff;
+    margin: 0;
 }
 
 footer p {
     color: #ffffff;
+    /* margin: 0px 50px 0px 250px; */
+    text-align: center;
 }
 
-#contact h2 p {
+#contact {
 
+}
+
+#contact > div {
+    display: flex;
+}
+
+.email-section {
+    width: 50%;
+}
+
+.email-address {
+    /* margin: 15px 0px 20px 150px; */
+}
+
+
+.connect-section {
+    height: 200px;
+    width: 50%;
+}
+
+ul.social-media-list {
+    list-style-type: none;
+    margin-bottom: 30px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+ul.social-media-list img {
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #095156;
+    width: 45px;
+    height: 45px;;
+}
+
+
+
+
+
+.copyright {
+    /* height: 100px; */
+    /* width: 600px; */
+    /* margin-left: 35px; */
 }
